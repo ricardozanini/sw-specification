@@ -1,0 +1,7 @@
+= Workflow Definition
+
+A workflow definition is a JSON or YAML file that conforms to the Serverless Workflow specification DSL. It consists of the core xref:spec_details/structure/index.adoc[Workflow Definition Structure] and the xref:spec_details/workflow_model.adoc[Workflow Model] It defines a blueprint used by runtimes for its execution.
+
+A business solution can be composed of any number of related workflow definitions. Their relationships are explicitly modeled with the Serverless Workflow language (for example by using xref:spec_details/structure/related_state_definitions/subflowref.adoc[SubFlowRef Definition] in actions).
+
+Runtimes can initialize workflow definitions for some particular set of data inputs or events.

@@ -1,0 +1,3 @@
+= Specification Details
+
+This chapter provides detailed descriptions of all parts of the Serverless Workflow language.

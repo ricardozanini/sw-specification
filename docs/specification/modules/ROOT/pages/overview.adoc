@@ -1,0 +1,28 @@
+= Overview
+
+Workflows allow us to capture and organize business requirements in a unified manner.
+They can bridge the gap between how we express and model business logic.
+
+A key component of workflows is the domain-specific language (DSL) we use to model our
+business logic and solutions. Selecting the appropriate workflow language for our business and technology domains is
+a very important decision to be considered.
+
+Serverless Workflow focuses on defining a **vendor-neutral**, **platform-independent**, and **declarative** workflow
+language that targets the serverless computing technology domain.
+It can be used to significantly bridge the gap between your unique business domain and the target technology domain.
+
+== Why we need a specification?
+
+The lack of a common way to define and model workflows means that we must constantly re-learn how to write them. This also limits the potential for common libraries, tooling and infrastructure to aid workflow modeling and execution across different platforms. Portability as well as productivity that can be achieved from workflow orchestration is hindered overall.
+
+Serverless Workflow addresses the need for a community-driven, vendor-neutral and a platform-independent workflow language specification that targets the serverless computing technology domain.
+
+Having and using a specification-based workflow language allows us to model our workflows once and deploy them onto many different container/cloud platforms, expecting the same execution results.
+
+image::spec/spec-goals.png[]
+
+== Focus on standards
+
+image::spec/spec-parts.png[]
+
+Serverless Workflow language takes advantage of well-established and known standards such as link:{cloudevents_url}[CloudEvents], link:{openapi_url}[OpenAPI] specifications, link:{grpc_url}[gRPC] and link:{graphql_url}[GraphQL].

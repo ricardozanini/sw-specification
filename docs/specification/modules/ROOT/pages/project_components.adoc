@@ -1,0 +1,11 @@
+= Project Components
+
+image::spec/spec-overview.png[]
+
+The specification has multiple components:
+
+* Definitions of the workflow language. This is defined via the link:{spec_repo_versioned_url}/schema/workflow.json[Workflow JSON Schema]. You can use both
+  link:{json_url}[JSON] and link:{yaml_url}[YAML] formats to model your workflows.
+* Software Development Kits (SDKs) for link:{go_sdk_url}[Go], link:{java_sdk_url}[Java], link:{dotnet_sdk_url}[.NET], link:{typescript_sdk_url}[Typescript] and link:{python_sdk_url}[Python], and we plan to add them for more languages in the future.
+* Set of xref:extensions/index.adoc[Workflow Extensions] which allow users to define additional, non-execution-related workflow information. This information can be used to improve workflow performance. Some example workflow extensions include Key Performance Indicators (KPIs), Rate Limiting, Simulation, Tracing, etc.
+* Technology Compatibility Kit (TCK) to be used as a specification conformance tool for runtime implementations.
