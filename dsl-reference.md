@@ -2769,7 +2769,7 @@ do:
                     event:
                       with:
                         source: https://open-workflow-specification.org/samples
-                        type: io.serverlessworkflow.samples.asyncapi.message.consumed.v1
+                        type: org.open-workflow-specification.samples.asyncapi.message.consumed.v1
                         data:
                           message: '${ $message }'
 ```
